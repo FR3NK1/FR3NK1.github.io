@@ -1,0 +1,65 @@
+@font-face {
+        font-family: pixel_georgia;
+        src: url(fonts/pixel_georgia.ttf); 
+        }
+
+body{
+	background-image: url(image/bg_full.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-color: black;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    margin-top: 260px;
+    border: 5px solid #00796B;
+}
+
+#playbutton {
+    font-family: pixel_georgia;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
+    outline:none;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+}
+
+.playbuttons {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: pixel_georgia;
+    margin-right: 40px;
+}
+
+.window {
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    padding-top: 50px;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -300px;
+    border: none;
+}
+.wrapper {
+    text-align: center; /*располагаем содержимое блока по центру*/
+}
+.box {
+    opacity: 0.6;
+    display: inline-block; /*располагаем блоки в ряд по горизонтали*/
+    margin-right: -0.25em; /*убираем правый отступ между блоками*/
+}
+
+/*button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}*/
